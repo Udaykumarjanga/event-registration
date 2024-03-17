@@ -89,7 +89,7 @@ export default function HomePage() {
 
     const paymentHandler = async (e) => {
         e.preventDefault()
-        const paymentResponse = await fetch('http://localhost:8000/order', {
+        const paymentResponse = await fetch('https://sachinjha03.github.io/event-registration-backend/order', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -114,7 +114,7 @@ export default function HomePage() {
                     const handleSubmit = async(e) => {
                             console.log(data);
                             try{
-                                const response = await fetch("http://localhost:8000/user-registration" , {
+                                const response = await fetch("https://sachinjha03.github.io/event-registration-backend/user-registration" , {
                                     method:'POST',
                                     headers:{
                                         'Content-Type':'application/json'
