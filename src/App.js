@@ -7,7 +7,7 @@ function App() {
     <>
       <BrowserRouter basename='/event-registration'>
         <Routes>
-          <Route path='/event-registration' element={<HomePage/>}/>
+          <Route path='/' element={<HomePage/>}/>
         </Routes>
       </BrowserRouter>
     </>
