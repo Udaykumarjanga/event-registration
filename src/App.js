@@ -5,9 +5,9 @@ import HomePage from './Pages/HomePage';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/event-registration'>
         <Routes>
-          <Route path='/' element={<HomePage/>}/>
+          <Route path='/event-registration' element={<HomePage/>}/>
         </Routes>
       </BrowserRouter>
     </>
