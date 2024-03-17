@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/event-registration/static/css/main.ac64f721.css",
+    "main.js": "/event-registration/static/js/main.1cb53e0e.js",
+    "static/media/landing-bg-video.mp4": "/event-registration/static/media/landing-bg-video.b0ff785a105bb72fe9f1.mp4",
+    "static/media/event1.jpg": "/event-registration/static/media/event1.305bfcdbb8f491a1003f.jpg",
+    "static/media/event4.jpg": "/event-registration/static/media/event4.5544f17526ffc91ba05d.jpg",
+    "static/media/event2.jpg": "/event-registration/static/media/event2.d0d0820c07c2b94db0f4.jpg",
+    "static/media/event3.jpg": "/event-registration/static/media/event3.75984ba20e3e034906de.jpg",
+    "static/media/about-bg.jpg": "/event-registration/static/media/about-bg.74bda839eac949d2c389.jpg",
+    "static/media/logo.png": "/event-registration/static/media/logo.98dca329fc9a985e4707.png",
+    "index.html": "/event-registration/index.html",
+    "main.ac64f721.css.map": "/event-registration/static/css/main.ac64f721.css.map",
+    "main.1cb53e0e.js.map": "/event-registration/static/js/main.1cb53e0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac64f721.css",
+    "static/js/main.1cb53e0e.js"
+  ]
+}
