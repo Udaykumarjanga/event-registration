@@ -109,7 +109,7 @@ export default function HomePage() {
                 <h1>Enjoy The <span> Charged Event </span>with your bestfriends !!</h1>
                 <p>Whether you're a party animal, a music enthusiast, or a gaming pro, we've got something special for you. Our event registration platform is designed to make it easy for you to discover, explore, and register for the hottest events on campus.</p>
                 <hr />
-                <h4>ALL THE EVENT AT JUST <span> @299</span></h4>
+                <h4>ALL THE EVENT AT JUST <span> @499</span></h4>
                 <a href="#events" className="btn-a link-a">Explore More</a>
             </div>
             <div className="event-section" id='events'>
