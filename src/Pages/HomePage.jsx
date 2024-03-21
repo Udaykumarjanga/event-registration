@@ -17,79 +17,11 @@ export default function HomePage() {
         setData({ ...data, [e.target.name]: e.target.value })
     }
 
-    // const handleSubmit = async(e) => {
-    //     e.preventDefault()
-    //     console.log(data);
-    //     try{
-    //         const response = await fetch("http://localhost:8000/user-registration" , {
-    //             method:'POST',
-    //             headers:{
-    //                 'Content-Type':'application/json'
-    //             },
-    //             body:JSON.stringify(data)
-    //         })
-    //         const json = await response.json()
-    //         if(json.success){
-    //             setData({name:"" , email:"" , contact:"" , event:"celebrity-event"})
-    //             const paymentHandler = async(req,res) => {
-    //                 const paymentResponse =  await fetch('http://localhost:8000/order' , {
-    //                     method:'POST',
-    //                     headers:{
-    //                         'Content-Type':'application/json'
-    //                     }
-    //                 })
-    //                 const order = await paymentResponse.json()
-    //                 console.log(order);
-
-    //                 var options = {
-    //                     "key": "rzp_test_x60STtj7ClWCoL",
-    //                     "amount": "49900",
-    //                     "currency": "INR",
-    //                     "name": "Event Registration",
-    //                     "description": "Entry Fee For Event!!",
-    //                     "image": logo,
-    //                     "order_id": order.id,
-    //                     "handler": function (response){
-    //                         console.log(response.razorpay_payment_id);
-    //                         console.log(response.razorpay_order_id);
-    //                         console.log(response.razorpay_signature)
-    //                         if (response.razorpay_payment_id) {
-    //                             setRegistrationNumber(json.data.registrationNumber)
-    //                             setRegistrationScreen(true)
-    //                         } else {
-    //                             alert("Payment Failed");
-    //                         }
-    //                     },
-    //                     "prefill": {
-    //                         "name": json.data.name,
-    //                         "email": json.data.email, 
-    //                         "contact": json.data.contact
-    //                     },
-    //                     "notes": {
-    //                         "address": ""
-    //                     },
-    //                     "theme": {
-    //                         "color": "#3399cc"
-    //                     }
-    //                 };
-    //                 var rzp1 = new window.Razorpay(options);
-    //                     rzp1.open();
-    //                     e.preventDefault();
-    //             }
-    //             paymentHandler()
-    //         }
-    //         else{
-    //             alert("Failed To Register")
-    //             console.log("Failed To Register");
-    //         }
-    //     }catch(Err){
-    //         console.log(Err);
-    //     }
-    // }
+    
 
     const paymentHandler = async (e) => {
         e.preventDefault()
-        const paymentResponse = await fetch('https://event-registration-backend.onrender.com/order', {
+        const paymentResponse = await fetch('https://backend-grq8.onrender.com/order', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -114,7 +46,7 @@ export default function HomePage() {
                     const handleSubmit = async(e) => {
                             console.log(data);
                             try{
-                                const response = await fetch("https://event-registration-backend.onrender.com/user-registration" , {
+                                const response = await fetch("https://backend-grq8.onrender.com/user-registration" , {
                                     method:'POST',
                                     headers:{
                                         'Content-Type':'application/json'
