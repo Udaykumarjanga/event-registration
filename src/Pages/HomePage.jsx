@@ -32,7 +32,7 @@ export default function HomePage() {
 
         var options = {
             "key": "rzp_test_x60STtj7ClWCoL",
-            "amount": "29900",
+            "amount": "49900",
             "currency": "INR",
             "name": "Event Registration",
             "description": "Entry Fee For Event!!",
